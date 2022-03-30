@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#FFD580;
+}
+
+/* Nav bar stuff */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(179, 230, 245);
+  list-style: none;
+  padding: 1.5em;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+
+.navbar a {
+  background-color: #FFFF8A;
+  padding: 1em;
+  border-radius: 12px;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+/* Title stuff */
+#fruitspread{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("/images/fruit.png");
+}
+
+/* Main content */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  height: 30rem;
+}
+
+.main-content > div {
+  height: 100%;
+  width: 50%;
+}
+
+.main-content .login {
+  /*display: flex;*/
+  padding: 15px;
+  box-sizing: border-box; /* This fits the content including padding */
+  background-color: #98FB98;
+  
+}
+h3   {
+  color: #000;
+  position: absolute;
+  top: 350px;
+}
+
+h5   {
+  color: #000;
+  position: absolute;
+  top: 680px;
+  left: 30px;
+  font-size: 30px;
+
+
+
+ 
+}
+.main-content .login .hidden{
+  display: none;
+}
+
+.spin-wheel{
+  height: 37rem;
+  background-color: #FFFF8A;
+}
+
+#lunch-btn{
+  border-radius: 10px;
+  background-color: #FFFF8A;
+  width: 120px;
+  height: 50px;
+  position: absolute;
+  left: 990px;
+  top: 400px;
+}
+#breakfast-btn{
+  border-radius: 10px;
+  background-color: #FFFF8A;
+  width: 120px;
+  height: 50px;
+  position: absolute;
+  left: 790px;
+  top: 400px;
+}
+
+#dinner-btn{
+  border-radius: 10px;
+  background-color: #FFFF8A;
+  width: 120px;
+  height: 50px;
+  position: absolute;
+  left: 1190px;
+  top: 400px;
+}
+
+#btnSubmit{
+  border-radius: 10px;
+  background-color: #FFFF8A;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 480px;
+}
+
+#back{
+  border-radius: 10px;
+  background-color: #FFFF8A;
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  top: 480px;
+}
+
+.recipeName {
+  width: 200px;
+  display: inline-block;
+}
+
+.recipeTimeOfDay {
+  width: 100px;
+}
+
+
+/* h1{
+    color:ghostwhite;
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    cursor: zoom-out;
+
+}
+
+body{
+    background-color:#FFD580; 
+}
+
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .div--1 {
+    background-color: rgb(0, 132, 255);
+    width: -10px;
+    height: 250px;
+  }
+  .div--2 {
+    background-color: rgb(255, 136, 0);
+    position: absolute;
+    top: 380px;
+    left: 90px;
+    width: 1100px;
+    height: 10px;
+  
+  }
+  .div--3 {
+    background-color: rgb(255, 0, 242);   
+    position: absolute;
+    top: 880px;
+    left: 90px;
+    width: 1100px;
+  }
+  .navbar ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(179, 230, 245);
+    list-style: none;
+    padding: 1.5em;
+    border-radius: 12px;
+    border: 1px solid black;
+  }
+  .navbar ul li a {
+    background-color: yellow;
+    padding: 1em;
+    border-radius: 12px;
+    border: 1px solid black;
+    text-decoration: none;
+  }
+  .navbar ul li:hover {
+    background-color: orangered;
+    cursor: pointer;
+  }
+  .navbar {
+    width: 90%;
+  }
+  section {
+    width: 75%;
+  }
+  .div {
+    margin: 1em;
+    border-radius: 12px;
+    border: 1px solid black;
+    font-size: 5em;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #button {
+    text-align: center;
+
+    
+    position: absolute;
+    left: 600px;
+    top: 1550px;
+   
+  }
+
+#dinner{
+  color:aqua;
+  font-size: 15px;
+}
+
+#mealButtons{
+  visibility: hidden;
+}
+
+#breakfast-btn{
+  position: absolute;
+  left: 400px;
+  top: 1450px;
+  border-radius: 10px;
+  background-color: #FFFF8A;
+  width: 120px;
+  height: 50px;
+}
+
+#lunch-btn{
+  position: absolute;
+  left: 650px;
+  top: 1450px;
+  border-radius: 10px;
+  background-color: #FFFF8A;
+  width: 120px;
+  height: 50px;
+}
+
+#dinner-btn{
+  position: absolute;
+  left: 900px;
+  top: 1450px;
+  border-radius: 10px;
+  background-color: #FFFF8A;
+  width: 120px;
+  height: 50px;
+}
+ */
+
+
+#back{
+  text-align: right;
+}
